@@ -50,7 +50,7 @@ public class calendars extends javax.swing.JFrame {
             }
         });
 
-        jlbTime.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jlbTime.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jlbTime.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jlbTime.setText("Time");
 
@@ -116,6 +116,7 @@ public class calendars extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed

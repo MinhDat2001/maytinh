@@ -556,6 +556,7 @@ public class calculator extends javax.swing.JFrame implements Runnable{
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
     
 //    private void dangTinh(){
