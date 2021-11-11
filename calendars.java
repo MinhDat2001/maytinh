@@ -38,7 +38,7 @@ public class calendars extends javax.swing.JFrame {
         jlbDate = new javax.swing.JLabel();
         btnExit = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setText("CALENDAR");
@@ -50,11 +50,11 @@ public class calendars extends javax.swing.JFrame {
             }
         });
 
-        jlbTime.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jlbTime.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jlbTime.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jlbTime.setText("Time");
 
-        jlbDate.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jlbDate.setFont(new java.awt.Font("Tahoma", 0, 28)); // NOI18N
         jlbDate.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jlbDate.setText("Date");
 

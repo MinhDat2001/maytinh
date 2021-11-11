@@ -39,7 +39,7 @@ public class BamGio extends javax.swing.JFrame {
         txtSeconds = new javax.swing.JLabel();
         btnReset = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel4.setText("Bấm giờ");
@@ -154,12 +154,14 @@ public class BamGio extends javax.swing.JFrame {
 
     private void btnMaytinhActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMaytinhActionPerformed
         // TODO add your handling code here:
+        bgio.stop();
         this.setVisible(false);
         new calculator().setVisible(true);
     }//GEN-LAST:event_btnMaytinhActionPerformed
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
         // TODO add your handling code here:
+        bgio.stop();
         this.setVisible(false);
         new more().setVisible(true);
     }//GEN-LAST:event_btnBackActionPerformed
